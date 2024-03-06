@@ -34,6 +34,8 @@
     border-radius: 5%;
     max-width: 100%;
     max-height: 80vh; 
+    
+
 }
 
 .container.text-center {
@@ -157,6 +159,9 @@
     outline: 2px solid orange;
     
 }
+.skills{
+    max-height: 666px;
+}
 
 .s-char{
     color: #fff;
@@ -172,9 +177,7 @@
 .bb{
     width: auto;
 }
-.skills{
-    height: clamp(100vh , auto , 60vh);
-}
+
 .o-char{
     color: #fff;
     font-size: 18px;
