@@ -5,10 +5,10 @@
     .text{
         line-height: 1.2;
     }
-    
+   
     
 }
-@media (max-width: 420px){
+@media (max-width: 400px){
     .h1{
         font-size: 18px;
     }
@@ -19,7 +19,9 @@
     
 }
     
-
+.mini-text{
+    font-size: clamp(0.01em , 4vw , 1.2em);
+}
 .full-screen {
     position: relative;
     height: 100vh;
@@ -118,28 +120,42 @@
     border: 20px;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    
 }
 .box1{
-    flex: 1 0 200px;
-    height: 550px;
+    
+    padding:10px;
+    height: auto;
+    width: auto;
+    overflow: hidden;
     background-color:#2b2b2b;
     margin: 20px;
-    display: flex;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
     border-radius: 15px;
-    flex-wrap: wrap;
+   
     transition: 2s;
+}
+.box2{
+    display:flex; 
+    flex-wrap: wrap;
+    margin: 10px 10px 60px 10px  ;
 }
 .c2c{
     flex: 1 0 80px;
-    height: 80px
+    height: 80px;
+    display:block;
+    margin: 30px;
 }
-
+.img2{
+    width: 80px;
+    height: auto;
+    margin-bottom: 20px;
+}
 .box1:hover{
     
     transition: 2s;
     outline: 2px solid orange;
-    box-shadow: 3px 3px;
+    
 }
 
 .s-char{
@@ -151,17 +167,13 @@
     color: #fff;
     font-size: 18px;
 }
-.img2{
-    width: 110px;
-    height: auto;
-    margin: 20px;
-}
+
 
 .bb{
     width: auto;
 }
 .skills{
-    height: 100vh;
+    height: clamp(100vh , auto , 60vh);
 }
 .o-char{
     color: #fff;
