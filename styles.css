@@ -113,9 +113,12 @@
 .myA{
     display: flex;
     justify-content: center;
+    
     color: #fff;
     
+    
 }
+
 .papa1{
     width: auto;
     height: 90vh;
@@ -186,4 +189,33 @@
 .small-box{
     margin: 20px;
     
+}
+
+.foot-link{
+    display: block;
+    width: 40px;
+    align-items: center;
+    margin: 0px 10px 10px 10px ;
+    
+}
+
+.footer-box{
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+}
+
+.Ef-box{
+    display: flex;
+    margin: 20px;
+
+}
+.E-text{
+    color: white;
+    margin-top:30px
+}
+
+.box-p{
+    display: flex;
+    justify-content: space-between;
 }
