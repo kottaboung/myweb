@@ -191,28 +191,36 @@
     
 }
 
-.foot-link{
-    display: block;
-    width: 40px;
-    align-items: center;
-    margin: 0px 10px 10px 10px ;
-    
-}
-
-.footer-box{
+.footer-box {
     display: flex;
-    flex-wrap: wrap;
-    width: auto;
+    justify-content: center;
+    align-items: center;
 }
 
+.foot-link {
+    text-align: center;
+    margin: 0 10px; 
+}
+.inm{
+    display: inline-flex;
+}
+.pp2{
+    color: white;
+}
 .Ef-box{
     display: flex;
     margin: 20px;
-
+    
+}
+.Ef2-box{
+    text-align: end;
+    margin: 20px;
+    line-height: 0.05;
 }
 .E-text{
     color: white;
     margin-top:30px
+    
 }
 
 .box-p{
